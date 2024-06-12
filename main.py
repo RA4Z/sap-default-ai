@@ -1,3 +1,4 @@
+# Default model for SAP automations, developed by Robert Aron Zimmermann, using Google AI Studio tuned prompt model
 from sap_functions import SAP
 
 default_language = 'PT'
@@ -7,6 +8,9 @@ sap_window = 0
 
 # Python Default Script
 # Default model for SAP automations, developed by Robert Aron Zimmermann, using Google AI Studio tuned prompt model
+
+# Solicitado por Karoline Luciani Fritsche
+# Desenvolvido por Robert Aron Zimmermann
 
 class Work:
     def __init__(self):
