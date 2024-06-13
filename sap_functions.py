@@ -109,7 +109,7 @@ class SAP:
     def __scroll_through_grid(self, extension):
         if self.session.findById(extension).Type == 'GuiShell':
             try:
-                self.session.findById(extension).RowCount()
+                var = self.session.findById(extension).RowCount
                 return self.session.findById(extension)
             except:
                 pass
